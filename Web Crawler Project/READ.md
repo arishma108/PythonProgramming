@@ -6,6 +6,6 @@ First, create a web-crawler with the help of requests module and beautiful soup 
 
 <img align="right" alt="GIF" src="https://github.com/arishma108/PythonProgramming/blob/master/Web%20Crawler%20Project/Task%201%20-%20Web%20Crawler.jpg?raw=true" width="838" height="220" />
 
-
+<br>
 [('to', 10), ('in', 7), ('is', 6), ('language', 6), ('the', 5),
  ('programming', 5), ('a', 5), ('c', 5), ('you', 5), ('of', 4)]
