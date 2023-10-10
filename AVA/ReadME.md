@@ -61,11 +61,10 @@ engine = pyttsx3.init()
 def talk(message):
     engine.say(message)
     engine.runAndWait()
-```
 
 # Add this line inside the main loop to make Ava speak
 # talk("I am your Avaa. How can I assist you?")
-
+```
 Now Ava can speak. Uncomment the talk line inside the loop to hear Ava's response.
 
 ##### Playing Music
