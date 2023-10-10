@@ -23,10 +23,13 @@ Pywhatkit: To perform actions like playing songs from YouTube.
 Note: If you encounter any issues installing PyAudio, try using Python version 3.6 or earlier.
 
 #### Basic Functionality
-##### Listening
-Now to start coding. I will import the necessary packages and create a listener for Ava to recognize my voice commands. Here's a basic structure for the code:
 
-main.py
+##### Listening
+Now to start coding. I will import the necessary packages and create a listener for Ava to recognize my voice commands. 
+
+Here's a basic structure for the code:
+
+`main.py`
 ```
 import speech_recognition as sr
 
@@ -51,8 +54,7 @@ This code listens to my voice commands continuously and prints them.
 ##### Talking
 Next, Ava will talk back by adding this code to the main function:
 
-cont.
-main.py
+cont. `main.py`
 ```
 import pyttsx3
 
@@ -63,15 +65,14 @@ def talk(message):
     engine.runAndWait()
 
 # Add this line inside the main loop to make Ava speak
-# talk("I am your Avaa. How can I assist you?")
+# talk("I am your Ava. How can I assist you?")
 ```
 Now Ava can speak. Uncomment the talk line inside the loop to hear Ava's response.
 
 ##### Playing Music
 To play music from YouTube, add the following code:
 
-cont.
-main.py
+cont. `main.py`
 ```
 import pywhatkit as kit
 
@@ -83,7 +84,6 @@ This instructs Ava to play my favorite songs from YouTube.
 
 ##### Additional Features
 Expand Ava's capabilities by adding more functionalities like:
-
 - Asking for the time
 - Searching Wikipedia
 - Responding to romantic proposals
